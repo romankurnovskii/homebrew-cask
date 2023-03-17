@@ -8,7 +8,12 @@ cask "brewmate" do
   homepage "https://github.com/romankurnovskii/BrewMate"
 
   auto_updates true
-  depends_on macos: ">= :sierra"
 
   app "BrewMate.app"
+
+  zap trash: [
+    "~/Library/Application Support/brewmate",
+    "~/Library/Preferences/com.romankurnovskii.brewmate.plist",
+    "~/Library/Saved Application State/com.romankurnovskii.brewmate.savedState",
+  ]
 end
