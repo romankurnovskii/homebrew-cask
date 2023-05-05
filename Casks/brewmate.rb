@@ -1,6 +1,6 @@
 cask "brewmate" do
-  version "0.2.10"
-  sha256 "afaf84aaf91222fa237fb215cfcbc394e54f4f0ce3609e1de69c5259865fa4ce"
+  version "0.3.1"
+  sha256 "51182c8f393ff894cfd98ab1ec74b297abeb6464ecb44b35f846b6c698a1b099"
 
   url "https://github.com/romankurnovskii/BrewMate/releases/download/#{version}/BrewMate-#{version}-universal-mac.zip"
   name "BrewMate"
